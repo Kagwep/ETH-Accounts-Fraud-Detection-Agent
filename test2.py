@@ -26,7 +26,7 @@ def save_transactions_to_csv(transactions, filename):
                              tx['contractAddress'], tx['cumulativeGasUsed'], tx['gasUsed'], tx['confirmations']])
 
 # Replace 'YOUR_ADDRESS' and 'YOUR_API_KEY' with your actual Ethereum address and Etherscan API key.
-transactions = get_transactions('0x9A23A93905a0CEf884ACB6F6488BC5D7b964EF73', 'BM3TMP8VVGHAQGQGDFMDFD185Q7Z85X765')
+transactions = get_transactions('0x9A23A93905a0CEf884ACB6F6488BC5D7b964EF73', '')
 
 
 if transactions:
