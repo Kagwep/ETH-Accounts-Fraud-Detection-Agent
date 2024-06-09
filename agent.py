@@ -6,8 +6,8 @@ from giza.agents import GizaAgent, AgentResult
 from metrics_scaler import MetricsScaler
 
 import os
-os.environ['DETECT_AGENT_PASSPHRASE'] = 'watuwengi'
-os.environ['ETHER_SCAN_API_KEY'] = 'BM3TMP8VVGHAQGQGDFMDFD185Q7Z85X765'
+os.environ['DETECT_AGENT_PASSPHRASE'] = ''
+os.environ['ETHER_SCAN_API_KEY'] = ''
 
 # Make sure to fill these in
 MODEL_ID = 748
