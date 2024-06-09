@@ -34,4 +34,4 @@ metrics = {
     'total ether balance': transactions_df['value'].sum() / 1e18  # Simplistic balance calculation
 }
 
-print(metrics)
+
